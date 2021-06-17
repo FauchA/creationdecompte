@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+
+body {
+	
+	font-family : monospace;
+	background-color : silver;
+}
+
+.droite {
+	
+	justify-content :space-around;
+	
+}
+
+.conteneur-grid {
+	
+	display : grid; 
+	grid-template-columns : 8ch auto;  
+	
+}
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+  
+  .d-flex {
+    display : flex;
+ 
+} 
+
+.justify-content-between {
+    
+    justify-content: space-between; 
+}
+
+
+.align-items-baseline {
+    
+    align-items: baseline;
+}
+  
+  
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,19 @@
+﻿body {
+	
+    background-color : silver;
+    
+}	
+	
+
+.titre {
+
+    justify-content : flex-start; 
+    font-size: 1.5rem;
+    margin: 1rem; 
+	color : blue;
+
+}
+
+
+
+ 
